@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MultiGram - Multiple Instagram Accounts on One Phone</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js"></script>
+</head>
+<body>     <!-- Loader Overlay -->
+    <div id="loader-overlay" class="loader-overlay">
+        <!-- Loader Background Elements -->
+        <div class="loader-background">
+            <div class="background-dots">
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+            </div>
+            <div class="background-stars">
+                <div class="star-bg">★</div>
+                <div class="star-bg">★</div>
+                <div class="star-bg">★</div>
+                <div class="star-bg">★</div>
+                <div class="star-bg">★</div>
+                <div class="star-bg">★</div>
+                <div class="star-bg">★</div>
+                <div class="star-bg">★</div>
+                <div class="star-bg">★</div>
+                <div class="star-bg">★</div>
+                <div class="star-bg">★</div>
+                <div class="star-bg">★</div>
+                <div class="star-bg">★</div>
+                <div class="star-bg">★</div>
+                <div class="star-bg">★</div>
+                <div class="star-bg">★</div>
+            </div>
+        </div>
+        <div class="loader-container">
+            <div id="lottie-container" class="lottie-container"></div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div id="main-content" class="main-content hidden">
+        <!-- Global Background -->
+        <div class="global-background">
+            <div class="background-dots">
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+            </div>
+            <div class="background-stars">
+                <div class="star-bg">★</div>
+                <div class="star-bg">★</div>
+                <div class="star-bg">★</div>
+                <div class="star-bg">★</div>
+                <div class="star-bg">★</div>
+                <div class="star-bg">★</div>
+                <div class="star-bg">★</div>
+                <div class="star-bg">★</div>
+                <div class="star-bg">★</div>
+                <div class="star-bg">★</div>
+                <div class="star-bg">★</div>
+                <div class="star-bg">★</div>
+                <div class="star-bg">★</div>
+                <div class="star-bg">★</div>
+                <div class="star-bg">★</div>
+                <div class="star-bg">★</div>
+            </div>
+        </div>
+
+        <!-- Navigation Bar -->
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <img src="multigram-high-resolution-logo-transparent.png" alt="MultiGram Logo" class="logo-image">
+                </div>
+                <div class="nav-links">
+                    <a href="#features" class="nav-link">Features</a>
+                    <a href="#download" class="nav-link">Download</a>
+                    <a href="#guide" class="nav-link">Guide</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section class="hero-container">
+            <div class="hero-content">
+                <div class="hero-left">
+                    <h1 class="hero-title">Run Multiple <span class="highlight">Instagram</span> App on One Phone</h1>
+                    <p class="hero-description">Experience the power of managing multiple Instagram accounts simultaneously with our innovative app cloner technology.</p>
+                    <div class="cta-buttons">
+                        <button class="download-btn android">
+                            <span class="play-icon">▶</span>
+                            Download for Android
+                        </button>
+                        <button class="download-btn guide">
+                            <span class="guide-icon">📖</span>
+                            Agency Automation Guide
+                        </button>
+                    </div>
+                    <div class="guide-button-container">
+                        
+                    </div>
+                </div>
+                <div class="hero-right">
+                    <img src="Hero.png" alt="App Cloner Hero" class="hero-image">
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="features-section">
+            <div class="features-container">
+                <div class="features-header">
+                    <h2 class="features-title">Why Choose MultiGram?</h2>
+                    <p class="features-subtitle">Everything you need to manage multiple Instagram accounts efficiently</p>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">🛡️</div>
+                        <h3 class="feature-card-title">Fully Isolated</h3>
+                        <p class="feature-card-description">Each Instagram instance is completely separate with its own data, cookies, and settings.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">👥</div>
+                        <h3 class="feature-card-title">8 Accounts</h3>
+                        <p class="feature-card-description">Run up to 8 different Instagram accounts simultaneously on a single device.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">⚡</div>
+                        <h3 class="feature-card-title">Lightning Fast</h3>
+                        <p class="feature-card-description">Optimized performance ensures smooth switching between accounts without lag.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🔒</div>
+                        <h3 class="feature-card-title">Secure</h3>
+                        <p class="feature-card-description">Your account credentials are encrypted and stored securely on your device.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🔄</div>
+                        <h3 class="feature-card-title">Easy Switching</h3>
+                        <p class="feature-card-description">Switch between accounts instantly with our intuitive interface.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">📱</div>
+                        <h3 class="feature-card-title">Mobile Optimized</h3>
+                        <p class="feature-card-description">Designed specifically for mobile devices with touch-friendly controls.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Download Section -->
+        <section id="download" class="download-section">
+            <div class="download-container">
+                <div class="download-header">
+                    <h2 class="download-title">Ready to Get Started?</h2>
+                    <p class="download-description">Download MultiGram today and experience the power of multiple Instagram accounts on one device.</p>
+                </div>
+                <div class="download-buttons">
+                    <button class="download-btn-main android">
+                        <span class="play-icon">▶</span>
+                        Download for Android
+                    </button>
+                    <button class="download-btn-main ios">
+                        <span class="apple-icon">🍎</span>
+                        Coming to iOS Soon
+                    </button>
+                </div>
+                <p class="download-disclaimer">Free to download • No hidden fees</p>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-content">
+                    <div class="footer-logo">
+                        <img src="multigram-high-resolution-logo-transparent.png" alt="MultiGram Logo" class="footer-logo-image">
+                    </div>
+                    <div class="footer-links">
+                        <a href="#features" class="footer-link">Features</a>
+                        <a href="#download" class="footer-link">Download</a>
+                        <a href="#" class="footer-link">Privacy Policy</a>
+                        <a href="#" class="footer-link">Terms of Service</a>
+                    </div>
+                </div>
+                <div class="footer-copyright">
+                    <p>© 2024 MultiGram. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        // Loader functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const loaderOverlay = document.getElementById('loader-overlay');
+            const mainContent = document.getElementById('main-content');
+            const lottieContainer = document.getElementById('lottie-container');
+            
+            // Initialize Lottie animation
+            const animation = lottie.loadAnimation({
+                container: lottieContainer,
+                renderer: 'svg',
+                loop: true,
+                autoplay: true,
+                path: 'Instagram Logo Effect.json'
+            });
+            
+            // Add event listeners for debugging
+            animation.addEventListener('data_ready', () => {
+                console.log('Lottie animation loaded successfully');
+            });
+            
+            animation.addEventListener('error', (error) => {
+                console.error('Lottie animation error:', error);
+            });
+            
+            // Simulate loading time (you can adjust this or remove it for real loading)
+            setTimeout(() => {
+                // Fade out loader
+                loaderOverlay.style.opacity = '0';
+                loaderOverlay.style.transform = 'scale(0.95)';
+                
+                // Show main content
+                mainContent.classList.remove('hidden');
+                mainContent.style.opacity = '1';
+                mainContent.style.transform = 'translateY(0)';
+                
+                // Remove loader after transition
+                setTimeout(() => {
+                    loaderOverlay.style.display = 'none';
+                }, 500);
+            }, 3850); // 3 seconds loading time
+        });
+    </script>
+</body>
+</html> 
